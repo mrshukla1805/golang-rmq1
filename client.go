@@ -30,7 +30,7 @@ func main() {
 		log.Fatalf("%s: %s", "Failed to declare a queue", err)
 	}
 
-	body := "Nagesh Shukla!"
+	body := "Parth Shukla!"
 	err = ch.Publish(
 		"",     // exchange
 		q.Name, // routing key
